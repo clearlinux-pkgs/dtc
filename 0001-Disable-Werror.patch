@@ -1,0 +1,25 @@
+From 26d079928583d1c7e4d4cf3082336bf43f6384c2 Mon Sep 17 00:00:00 2001
+From: William Douglas <william.douglas@intel.com>
+Date: Thu, 12 Apr 2018 22:17:08 +0000
+Subject: [PATCH] Disable Werror
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 9ba8121..a3f1418 100644
+--- a/Makefile
++++ b/Makefile
+@@ -18,7 +18,7 @@ CONFIG_LOCALVERSION =
+ CPPFLAGS = -I libfdt -I .
+ WARNINGS = -Wall -Wpointer-arith -Wcast-qual -Wnested-externs \
+ 	-Wstrict-prototypes -Wmissing-prototypes -Wredundant-decls -Wshadow
+-CFLAGS = -g -Os $(SHAREDLIB_CFLAGS) -Werror $(WARNINGS)
++CFLAGS = -g -Os $(SHAREDLIB_CFLAGS) $(WARNINGS)
+ 
+ BISON = bison
+ LEX = flex
+-- 
+2.17.0
+

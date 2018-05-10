@@ -4,7 +4,7 @@
 #
 Name     : dtc
 Version  : 1.4.6
-Release  : 9
+Release  : 10
 URL      : https://www.kernel.org/pub/software/utils/dtc/dtc-1.4.6.tar.gz
 Source0  : https://www.kernel.org/pub/software/utils/dtc/dtc-1.4.6.tar.gz
 Summary  : No detailed summary available

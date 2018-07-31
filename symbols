@@ -26,6 +26,7 @@ libfdt.so.1:fdt_get_phandle
 libfdt.so.1:fdt_get_property
 libfdt.so.1:fdt_get_property_by_offset
 libfdt.so.1:fdt_get_property_namelen
+libfdt.so.1:fdt_get_string
 libfdt.so.1:fdt_getprop
 libfdt.so.1:fdt_getprop_by_offset
 libfdt.so.1:fdt_getprop_namelen

@@ -4,7 +4,7 @@
 #
 Name     : dtc
 Version  : 1.4.7
-Release  : 13
+Release  : 14
 URL      : https://www.kernel.org/pub/software/utils/dtc/dtc-1.4.7.tar.gz
 Source0  : https://www.kernel.org/pub/software/utils/dtc/dtc-1.4.7.tar.gz
 Summary  : No detailed summary available

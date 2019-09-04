@@ -1,2 +1,3 @@
 prefix.patch
 0001-Disable-Werror.patch
+0002-Fix-library-installation-path.patch

@@ -1,0 +1,23 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Patrick McCarty <patrick.mccarty@intel.com>
+Date: Wed, 4 Sep 2019 16:24:09 -0700
+Subject: [PATCH] Fix library installation path
+
+Signed-off-by: Patrick McCarty <patrick.mccarty@intel.com>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index c229caf..07d3a1e 100644
+--- a/Makefile
++++ b/Makefile
+@@ -35,7 +35,7 @@ INSTALL_SCRIPT = $(INSTALL)
+ DESTDIR =
+ PREFIX = $(HOME)
+ BINDIR = $(PREFIX)/bin
+-LIBDIR = $(PREFIX)/lib
++LIBDIR = $(PREFIX)/lib64
+ INCLUDEDIR = $(PREFIX)/include
+ 
+ HOSTOS := $(shell uname -s | tr '[:upper:]' '[:lower:]' | \

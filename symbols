@@ -35,6 +35,7 @@ libfdt.so.1:fdt_get_string
 libfdt.so.1:fdt_getprop
 libfdt.so.1:fdt_getprop_by_offset
 libfdt.so.1:fdt_getprop_namelen
+libfdt.so.1:fdt_header_size
 libfdt.so.1:fdt_header_size_
 libfdt.so.1:fdt_move
 libfdt.so.1:fdt_next_node

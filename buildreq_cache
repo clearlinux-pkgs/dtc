@@ -1,0 +1,5 @@
+1.6.1
+pkgconfig(valgrind)
+pkgconfig(yaml-0.1)
+valgrind
+yaml-dev

@@ -53,6 +53,7 @@ libfdt.so.1:fdt_num_mem_rsv
 libfdt.so.1:fdt_offset_ptr
 libfdt.so.1:fdt_open_into
 libfdt.so.1:fdt_overlay_apply
+libfdt.so.1:fdt_overlay_target_offset
 libfdt.so.1:fdt_pack
 libfdt.so.1:fdt_parent_offset
 libfdt.so.1:fdt_path_offset
